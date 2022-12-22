@@ -1,0 +1,33 @@
+.banner-container {
+    display: flex;
+    flex-direction: row;
+}
+.first-banner {
+    display: flex;
+    background-color: #1ed4cf;
+    border-right: 1px solid #fff;
+    position: relative;
+    transition: .5s;
+    color: white;
+
+}
+
+.second-banner {
+    display: flex;
+    background-color: #003845;
+    border-right: 1px solid #fff;
+    position: relative;
+    transition: .5s;
+    color: aliceblue;
+
+}
+.small {
+    width: 30vw;
+}
+.large {
+    width:70vw;
+}
+.banner-image {
+    width: 25vw;
+    height: 400px;
+}

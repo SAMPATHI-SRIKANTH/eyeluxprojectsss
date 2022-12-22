@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 20px;
+    
+    font-size: 20px;
+    font-weight: 300;
+   
+}
+.link {
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.glass-container {
+    height: 30vh;
+    width: 100vw;
+    color: brown;
+    display: flex;
+    background-color: rgb(180, 156, 156);
+    justify-content: space-evenly;
+}
